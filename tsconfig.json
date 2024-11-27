@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,  // Avoid checking type definitions of installed packages
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "aws-lambda"]
+  },
+  "include": ["*.ts"]
+}
+
